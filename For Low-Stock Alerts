@@ -1,0 +1,10 @@
+public class LowStockLinkedList {
+    private Node head;
+    private static class Node {
+        InventoryItem item;
+        Node next;
+        Node(InventoryItem item) { this.item = item; }
+    }
+    public void addLowStockItem(InventoryItem item) { ... }
+    public List<InventoryItem> getLowStockItems() { ... }
+}
