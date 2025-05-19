@@ -1,0 +1,1 @@
+private Deque<InventoryItem> recentItemsStack = new ArrayDeque<>(5); // Keeps last 5 added items
