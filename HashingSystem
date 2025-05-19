@@ -1,0 +1,6 @@
+// Enhanced category management
+private HashMap<String, TreeSet<InventoryItem>> categoryHash = new HashMap<>();
+
+public void addToCategory(InventoryItem item, String category) {
+    categoryHash.computeIfAbsent(category, k -> new TreeSet<>()).add(item);
+}
