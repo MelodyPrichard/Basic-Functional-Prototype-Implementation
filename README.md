@@ -45,3 +45,26 @@ EntryManager<T extends Entry> allows flexibility to manage different entry types
 
 WorkoutEntry and BodyStatEntry extend Entry and include fitness-specific fields.
 
+Added Deque for recent items (ArrayDeque from Java API).
+Custom LowStockLinkedList for tracking low inventory.
+Optimized search with HashMap<String, InventoryItem>.
+New UI buttons for accessing these features.
+
+Search by ID:
+
+Type product ID in search box
+
+BST returns result instantly
+
+Browse by Category:
+
+Select category from dropdown
+
+Hash table shows all matching items
+
+
+GitHub Updates
+Added InventoryBST.java
+Implemented category hash table
+Updated GUI with new search features
+Added performance benchmarks
