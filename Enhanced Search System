@@ -1,0 +1,3 @@
+[ID Search]           [Category Filter]
+   BST                    Hash Table
+   O(log n)               O(1)
