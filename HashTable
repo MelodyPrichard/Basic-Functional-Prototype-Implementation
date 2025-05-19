@@ -1,0 +1,1 @@
+private HashMap<String, ArrayList<InventoryItem>> categoryHash = new HashMap<>();
